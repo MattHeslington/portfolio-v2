@@ -2,7 +2,7 @@
 title: 'The tech behind this site'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
 coverImage: '/assets/blog/domains/domains.jpg'
-date: '2020-07-24T05:35:07.322Z'
+date: '2021-07-26T05:35:07.322Z'
 author:
   name: Matt Heslington
   picture: '/assets/blog/authors/avatar.jpg'

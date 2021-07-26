@@ -1,11 +1,11 @@
 ---
-title: "John Conway's Game of Life"
+title: 'Domains'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
 coverImage: '/assets/blog/domains/domains.jpg'
-date: '2021-07-21T05:35:07.322Z'
+date: '2021-07-22T05:35:07.322Z'
 author:
-  name: Matt Heslington
-  picture: '/assets/blog/authors/avatar.jpg'
+  name: Joe Haddad
+  picture: '/assets/blog/authors/joe.jpeg'
 ogImage:
   url: '/assets/blog/domains/domains.jpg'
 ---
