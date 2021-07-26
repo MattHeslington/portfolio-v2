@@ -1,0 +1,35 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+body {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-duration: 300ms;
+}
+
+.gradient {
+    background: linear-gradient(135deg, #5335CF 0%, #DE005E 25%, #F66E48 50%, #DE005E 75%, #5335CF 100%);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 25s linear infinite;
+}
+
+@keyframes animate {
+    100% {
+        background-position: 400%;
+    }
+}
+
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
