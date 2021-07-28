@@ -1,15 +1,13 @@
-import Container from '../components/container'
-import PostList from '../components/post-list'
-import Splash from '../components/splash'
-import Layout from '../components/layout'
+import Container from 'components/container'
+import PostList from 'components/post-list'
+import Splash from 'components/splash'
+import Layout from 'components/layout'
 import { getAllPosts } from 'lib/api'
 import Head from 'next/head'
-import { CMS_NAME } from 'lib/constants'
-import { SP } from 'next/dist/next-server/lib/utils'
 
 export default function Index({ allPosts }) {
-    const blogPosts = allPosts.slice(0,3)
     const projectPosts = allPosts.slice(3)
+    const blogPosts = allPosts.slice(0,3)
     return (
         <>
         <Layout>
@@ -19,7 +17,7 @@ export default function Index({ allPosts }) {
             <Container>
                 <Splash />
                 {projectPosts.length > 0 && <PostList posts={projectPosts} title={`Selected Projects`}/>}
-                {blogPosts.length > 0 && <PostList posts={projectPosts} title={`Blog Posts`}/>}
+                {blogPosts.length > 0 && <PostList posts={blogPosts} title={`Blog Posts`}/>}
             </Container>
         </Layout>
         </>
@@ -34,6 +32,7 @@ export async function getStaticProps() {
         'author',
         'coverImage',
         'excerpt',
+        'tech',
     ])
 
     return {

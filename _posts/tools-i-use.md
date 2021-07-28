@@ -1,13 +1,13 @@
 ---
 title: "My Developer's Tools"
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/blog/journal/journal.jpg'
+coverImage: '/assets/blog/tools/tools.png'
 date: '2021-07-25T05:35:07.322Z'
 author:
   name: Matt Heslington
   picture: '/assets/blog/authors/avatar.jpg'
 ogImage:
-  url: '/assets/blog/journal/journal.jpg'
+  url: '/assets/blog/bog/tools.png'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.

@@ -5,15 +5,15 @@ import { useTheme } from 'next-themes'
 import ColorSchemeContext from 'lib/ColorSchemeContext';
 
 
-const ThemeButton = () => {
-    const [mounted, setMounted] = useState(false)
+const SwitchTheme = () => {
+    //const [mounted, setMounted] = useState(false)
     const [enabled, setEnabled] = useState(false)
     const { theme, setTheme } = useTheme()
 
     // When mounted on client, now we can show the UI
-    useEffect(() => setMounted(true), [])
+    //useEffect(() => setMounted(true), [])
 
-    if (!mounted) return null
+    //if (!mounted) return null
 
     const colorSchemeContext = useContext(ColorSchemeContext);
     const dark = colorSchemeContext.colorScheme === 'dark';
@@ -43,4 +43,4 @@ const ThemeButton = () => {
     )
 }
 
-export default ThemeButton
+export default SwitchTheme
