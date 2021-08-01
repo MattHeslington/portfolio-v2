@@ -8,9 +8,8 @@ author:
   picture: '/assets/blog/authors/avatar.jpg'
 ogImage:
   url: '/assets/blog/journal/journal.jpg'
-tech: 'React'
-githublink: 'https://github.com/MattHeslington/portfolio-v2'
-externalurl: 'https://next-mongoose-tailwind-starter.vercel.app/'
+tech: ['React', 'Tailwind']
+externalurl: 'https://journal-git-main-mattheslington.vercel.app/login'
 ---
 
 My first major project. I have long wanted a tool to allow me record various aspects of my life, from my workout sessions and a log of the hopefully healthy meals I've eaten, to a log of nights out with friends or a record of the trips I have taken. I've wanted to be able to look back in time and see what I was doing on any given day, or view a map and have a look at places I visited and what activities I engaged in while there. An app with a clean, photo-led feed in a similar fashion to Twitter or Instagram.

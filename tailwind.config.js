@@ -8,6 +8,7 @@ module.exports = {
                 'accent-1': '#FAFAFA',
                 'accent-2': '#EAEAEA',
                 'accent-7': '#333',
+                'accent-8': '#111',
                 'modalborder':"#39384A",
                 'inputbg':"#080A0F",
                 'inputborder':"#21262D",

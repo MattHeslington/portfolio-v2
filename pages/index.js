@@ -6,8 +6,8 @@ import { getAllPosts } from 'lib/api'
 import Head from 'next/head'
 
 export default function Index({ allPosts }) {
-    const projectPosts = allPosts.slice(3)
-    const blogPosts = allPosts.slice(0,3)
+    const projectPosts = allPosts.slice(2)
+    const blogPosts = allPosts.slice(0,2)
     return (
         <>
         <Layout>
