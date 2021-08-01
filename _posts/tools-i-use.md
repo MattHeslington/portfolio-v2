@@ -1,6 +1,6 @@
 ---
-title: "Tools I Use to When Developing"
-excerpt: "A brief look at some of tools I consider to be most imortant and useful when I'm developing sites and apps, wand why."
+title: "Tools I Use as a Developer"
+excerpt: "A brief look at some of tools I consider to be most imortant and useful when I'm developing sites and apps, and why."
 coverImage: '/assets/blog/tools/tools.jpg'
 date: '2021-07-25T05:35:07.322Z'
 author:

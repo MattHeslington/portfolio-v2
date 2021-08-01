@@ -8,6 +8,8 @@ author:
   picture: '/assets/blog/authors/avatar.jpg'
 ogImage:
   url: '/assets/blog/agency/agency.jpg'
+githublink: 'https://github.com/MattHeslington/petal-v3'
+externalurl: 'https://petal.pw/'
 ---
 
 The React ecosystem provides a number of different frameworks to suit every use case. Create React App excels at Single Page Applications, while Gatsby is an excellent tool for creating balzingly fast static sites (although they have recently introduced features that now allow it to work with dynamic data). How is it so fast? Gatsby prebuilds every page in a site at build time, and uses code-splitting and other tools such as image optimisation and prefetching to ensure pages load almost instantly and images are delivered optimised and and the correct size.

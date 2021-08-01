@@ -22,6 +22,8 @@ The project is a SPA built in React and uses TailwindCSS for the minimalist styl
 
 Users assign their posts to subjects which they themselves choose. The app counts the number of posts in each subject. These subjects can have an emoji assigned to them to help distinguish between different subjects. These emojis can be changed at any time. Users can like or favourite posts and view these posts as an independent category. Posts can be edited or deleted. The app is fully internationalised using react-i18next, provides a number of welcome posts for new users which are automatically dated to the three or four dates prior to the user signing-up, and a welcome tour is given for new sign-ups to help with onboarding.
 
+I have also built a mobile version of the app using React Native, although it's around ninety percent complete at present.
+
 ## Challenges
 
 ### Data Flow
@@ -41,4 +43,3 @@ Probably the biggest problem I had and the one where StackOverflow was most usef
 
 I was orignally intending to use mapbox.com as the map provider. However, I just couldn't get the FitBounds functionality to work or find any documentation that would solve the problem. I switched to Leafletjs, which seemed to have a larger community and more documentation, and after a lot of back and forth on StackOverflow I was able to get the FitBounds to work.
 
-### Multiple File Uploads

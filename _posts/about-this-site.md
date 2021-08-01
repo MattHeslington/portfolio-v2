@@ -1,6 +1,6 @@
 ---
-title: 'A look behind this site'
-excerpt: 'A quick look at how I built this site and the technology it uses.'
+title: 'A Look Behind This Site'
+excerpt: 'A quick look at the technology behind this site, and techniques I used to build it.'
 coverImage: '/assets/blog/about/mattt.jpg'
 date: '2021-07-26T05:35:07.322Z'
 author:

@@ -1,6 +1,6 @@
 ---
-title: 'Domains'
-excerpt: "A React app that allows users to sign up and list their domain names or side-projects for sale. Domains can be filtered by price, tld, industry, domain rank or upvotes. Potential purchasers can directly message domain owners and have access to a fully featured live chat application within the site. Users have a dashboard where they can view their listed and upvoted posts, and edit or delete posts."
+title: 'Digital Marketplace'
+excerpt: "A React app that allows users to sign up and list their domain names or side-projects for sale. Listings can be upvoted by logged-in users. Domains can be filtered by price, tld, industry, domain rank or upvotes. Potential purchasers can directly message domain owners and have access to a fully featured live chat application within the site. Users have a dashboard where they can view their listed and upvoted posts, and edit or delete posts."
 coverImage: '/assets/blog/domains/domains.jpg'
 date: '2021-07-22T05:35:07.322Z'
 author:

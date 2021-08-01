@@ -45,16 +45,16 @@ export default function Splash() {
         <>
         <Container>
             <div className="flex flex-col items-start justify-center w-full h-186">
-                <div className="flex flex-row">
-                    <div className="w-2/3">
-                        <h1 className="text-6xl font-extrabold leading-tight tracking-tighter md:text-8xl md:pr-8">I love building apps<br/>using <span className="gradient animate-flow">beautiful</span> code.</h1>
+                <div className="flex flex-col lg:flex-row">
+                    <div className="lg:w-1/2 2xl:w-2/3">
+                        <h1 className="font-extrabold leading-tight tracking-tighter text-65xl md:text-7xl lg:text-6xl 2xl:text-8xl xl:text-7xl md:pr-8">I love building apps using <span className="gradient animate-flow">beautiful</span> code.</h1>
                         <p className="w-3/4 mt-4 text-lg font-light text-accent-7 dark:text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         <button
                             onClick={openModal}
                             className="h-10 px-16 mt-8 font-medium text-white bg-black rounded-md dark:text-black dark:bg-white focus:outline-none">Contact
                         </button>
                     </div>
-                    <div className="w-1/3" style={{zIndex: '0'}}>
+                    <div className="hidden lg:block lg:w-1/2 2xl:w-1/3" style={{zIndex: '0'}}>
                         <div className="hidden dark:block">
                             <Lottie options={animOptions}
                                 height={400}

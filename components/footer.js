@@ -8,8 +8,8 @@ export default function Footer() {
                 <div className="flex flex-col items-center py-28 lg:flex-row">
                     <h3 className="mb-10 text-4xl font-bold leading-tight tracking-tighter text-center lg:text-5xl lg:text-left lg:mb-0 lg:pr-4 lg:w-1/2">Statically Generated with Next.js.</h3>
                     <div className="flex flex-col items-center justify-center lg:flex-row lg:pl-4 lg:w-1/2">
-                        <Link href="/about-this-site"><a className="px-12 py-3 mx-3 mb-6 font-bold text-white transition-colors duration-200 bg-black border border-black hover:bg-white hover:text-black lg:px-8 lg:mb-0">Read Documentation</a></Link>
-                        <a href={`https://github.com/vercel/next.js/tree/canary/examples/`} className="mx-3 font-bold hover:underline">
+                        <Link href="/posts/about-this-site"><a className="px-12 py-3 mx-3 mb-6 font-bold text-white transition-colors duration-200 bg-black border border-black dark:text-black dark:border-white dark:bg-white hover:bg-white dark:hover:bg-black hover:text-black lg:px-8 lg:mb-0 dark:hover:text-white">Read Documentation</a></Link>
+                        <a href="https://github.com/MattHeslington/portfolio-v2" className="mx-3 font-bold text-black hover:underline dark:text-white">
                         View on GitHub</a>
                     </div>
                 </div>
