@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Avatar from 'assets/Avatar.jpg'
+import Avatar from 'assets/avatar.jpg'
 
 export default function Logo() {
     return (
